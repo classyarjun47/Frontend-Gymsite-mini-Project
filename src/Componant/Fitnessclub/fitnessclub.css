@@ -1,0 +1,100 @@
+.fitcontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid rgb(255, 255, 255); */
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/787/610/414/muscle-press-pose-athlete-workout-hd-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
+}
+
+.fitcontainer h1 {
+  width: 100%;
+  padding: 30px;
+  /* border: 2px solid rgb(216, 23, 23); */
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.fitcontainer p {
+  /* border: 2px solid rgb(27, 27, 27); */
+  padding: 10px;
+  padding: 20px;
+  margin-top: -1.8rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.fitcontainer button {
+  margin-top: 2rem;
+  background-image: linear-gradient(144deg, #ea01ff, #5b42f3 50%, #00ddeb);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 700;
+  border: none;
+}
+
+.fitheadtwo {
+  border: 2px solid rgb(31, 30, 30);
+  padding: 4.2rem;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  align-items: center;
+}
+
+.fitheadtwo h1 {
+  color: aliceblue;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a:hover {
+  /* touch-action: auto; */
+  color: #000000;
+  border-bottom: 2px solid rgb(45, 5, 61);
+  /* background-image: url(images/bg-01.jpg); */
+}
+
+
+.crossfitcon{
+display: flex;
+border: 2px solid red;
+}
+.crossfit2{
+  height:50vh;
+  width:60%
+
+}
+
+.crossfit2 h1 {
+  border: 2px solid rgb(23, 227, 67);
+  /* align-items: center; */
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+

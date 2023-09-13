@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .service1 {
+    background-image: linear-gradient(144deg, #ea01ff, #5b42f3 50%, #00eafb);
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+  .service1 h1{
+    color: rgb(255, 255, 255);
+  }
+  
+  .maincontainer1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    background-image: linear-gradient(144deg, #ea01ff, #5b42f3 50%, #00eafb);
+    gap:10px
+  }
+  
+ .card11 {
+    border: 1px solid rgb(255, 10, 10);
+    transition: 0.3s;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  } 
+  
+  .card11:hover {
+    box-shadow: black 10px 10px 10px;
+  }
+
+   .card11 img{
+    width:100%;
+    height: 200px;
+
+  }
+   
+  /* .card3 h3 {
+      padding: 5px;
+      top: 80%;
+      color: aliceblue;
+      text-align: center;
+      border-radius: 5px;
+      background-image: linear-gradient(144deg, #ea01ff, #5b42f3 50%, #00ddeb);
+  }
+    */

@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+  background-image: linear-gradient(144deg, #ea01ff, #2200ff 50%, #0aefff);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 13px;
+  box-shadow: black 10px 10px 10px;
+  align-items: center;
+}
+
+.App ul {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.App ul li a {
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo h2 a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 1.5rem;
+}
